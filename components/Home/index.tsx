@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import LiveClassesAndMentorship from "./LiveClassesAndMentorship/LiveClassesAndMentorship";
 import Alumni from "./OurAlumni/OurAlumni";
 import OurEarners from "./OurEarners/OurEarners";
+import DeanDemo from "./DeanIntro/DeanIntro";
 
 const HomePage: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage: React.FC = () => {
       <LiveClassesAndMentorship />
       <Alumni />
       <OurEarners />
+      <DeanDemo />
     </>
   );
 };
