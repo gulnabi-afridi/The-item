@@ -46,7 +46,7 @@ const Alumni: React.FC = () => {
           {/* 7th company */}
           <div className="w-full h-[100px] flex justify-center items-center relative imageFilter ">
             <Image
-              src="https://theitern.com/wp-content/uploads/2021/12/America-Airline-logo.png"
+              src="/ourAlumni/americanAirlines.png"
               fill
               alt="americanAirlines icon"
             ></Image>
@@ -54,7 +54,7 @@ const Alumni: React.FC = () => {
           {/* 8th comapny */}
           <div className="w-full h-[100px] flex justify-center items-center relative imageFilter">
             <Image
-              src="https://theitern.com/wp-content/uploads/2021/12/Bank-of-America-Logo-2048x1152.png"
+              src="/ourAlumni/bankOfAmerica.png"
               fill
               alt="bank of america icon"
             ></Image>
