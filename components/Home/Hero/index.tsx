@@ -10,9 +10,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 // Import Swiper React components
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const Index: React.FC = () => {
+const Hero: React.FC = () => {
   return (
     <>
       <div className={`w-full bg-white`}>
@@ -130,7 +130,7 @@ const Index: React.FC = () => {
   );
 };
 
-export default Index;
+export default Hero;
 
 const SliderImage: object[] = [
   {
