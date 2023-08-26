@@ -1,7 +1,12 @@
 import React from "react";
+import Live from "./LiveClasses/Live";
 
 const LiveClassesAndMentorship = () => {
-  return <div>LiveClassesAndMentorship</div>;
+  return (
+    <div>
+      <Live />
+    </div>
+  );
 };
 
 export default LiveClassesAndMentorship;
