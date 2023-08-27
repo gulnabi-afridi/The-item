@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Index: React.FC = () => {
+const RegisterForTraining = () => {
   return (
     <div className="w-full h-full  py-10">
       <div
@@ -121,7 +121,7 @@ const Index: React.FC = () => {
   );
 };
 
-export default Index;
+export default RegisterForTraining;
 
 const PremiumCourses: object[] = [
   {

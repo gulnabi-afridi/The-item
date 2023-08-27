@@ -1,7 +1,12 @@
 import React from "react";
+import RegisterForTraining from "@/components/RegisterForTraining/RegisterForTraining";
 
-const registerfortraining = () => {
-  return <div>registerfortraining</div>;
+const RegisterForTrainingPage = () => {
+  return (
+    <div>
+      <RegisterForTraining />
+    </div>
+  );
 };
 
-export default registerfortraining;
+export default RegisterForTrainingPage;
