@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { BiLockAlt } from "react-icons/bi";
 import { Spin as Hamburger } from "hamburger-react";
+import Login from "../Login/Login";
+import SignUp from "../SignUp/SignUp";
 // import component 👇
 import Drawer from "react-modern-drawer";
 
@@ -102,11 +104,11 @@ const Navigation: React.FC = () => {
 
       {/* ===========sign in=========== */}
 
-      {/* {signIn && <Login Open={signIn} setOpen={setSignIn} />} */}
+      {signIn && <Login Open={signIn} setOpen={setSignIn} />}
 
       {/* ===========sign up=========== */}
 
-      {/* {signUp && <SignUp Open={signUp} setOpen={setSignUp} />} */}
+      {signUp && <SignUp Open={signUp} setOpen={setSignUp} />}
     </>
   );
 };
