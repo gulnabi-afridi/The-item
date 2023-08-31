@@ -19,9 +19,9 @@ const DeanDemo: React.FC = () => {
             </p>
             <p className="text-[18px] text-[#f5f1f1] font-inter mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type only five centuries, but also the leap into electronic
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy
+              text ever since the 1500s, when an unknown printer took a galley
+              of type only five centuries, but also the leap into electronic
               typesetting, remaining essentially unchanged. It was popularised
               in the 1960s with the release of Letraset sheets containing Lorem
               Ipsum passages, and more recently with desktop publishing software
@@ -33,10 +33,10 @@ const DeanDemo: React.FC = () => {
               making it over 2000 years old. Richard McClintock, a Latin
               professor going through the cites of the word in classical
               literature, discovered the undoubtable source. Lorem Ipsum comes
-              from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-              Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
-              BC. This book is a treatise on the theory of ethics, very popular
-              during the Renaissance. The first line of Lorem Ipsum
+              from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et
+              Malorum&quot; (The Extremes of Good and Evil) by Cicero, written
+              in 45 BC. This book is a treatise on the theory of ethics, very
+              popular during the Renaissance. The first line of Lorem Ipsum
             </p>
             <p className="text-[18px] text-[#f5f1f1] font-inter">
               Contrary to popular belief, Lorem Ipsum is not simply random text.

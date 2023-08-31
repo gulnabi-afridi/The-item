@@ -102,9 +102,9 @@ const Courses: React.FC = () => {
           <Table stickyHeader aria-label="sticky table">
             <TableHead>
               <TableRow>
-                {columns.map((column: any) => (
+                {columns.map((column: any, index: number) => (
                   <TableCell
-                    key={column.id}
+                    key={index}
                     align={column.align}
                     style={{ minWidth: column.minWidth }}
                   >
@@ -116,18 +116,13 @@ const Courses: React.FC = () => {
             <TableBody>
               {rows
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                .map((row: any) => {
+                .map((row: any, index: number) => {
                   return (
-                    <TableRow
-                      hover
-                      role="checkbox"
-                      tabIndex={-1}
-                      key={row.code}
-                    >
-                      {columns.map((column: any) => {
+                    <TableRow key={index} hover role="checkbox" tabIndex={-1}>
+                      {columns.map((column: any, index: number) => {
                         const value = row[column.id];
                         return (
-                          <TableCell key={column.id} align={column.align}>
+                          <TableCell key={index} align={column.align}>
                             {column.format && typeof value === "number"
                               ? column.format(value)
                               : value}

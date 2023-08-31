@@ -29,7 +29,10 @@ const Live: React.FC = () => {
           {/* Single Card */}
           {[1, 2, 3, 4, 5, 6, 7, 8].map((index): any => {
             return (
-              <div className="grid grid-rows-[6.5fr_4.5fr_1fr] lg:grid-rows-[7fr_5.5fr_1fr] p-4 bg-[white]  w-full rounded-lg ">
+              <div
+                key={index}
+                className="grid grid-rows-[6.5fr_4.5fr_1fr] lg:grid-rows-[7fr_5.5fr_1fr] p-4 bg-[white]  w-full rounded-lg "
+              >
                 {/* Header */}
                 <div
                   className={`font-inter rounded-xl text-[white] text-[22px] font-medium pt-2 pl-3 `}
