@@ -80,9 +80,9 @@ export default function Layout({ children }: Props) {
         </div>
       ) : (
         <React.Fragment>
-          {!(Router.pathname === "/admin/login") && <Navigation />}
+          {/* {!(Router.pathname === "/admin/login") && <Navigation />} */}
           <main>{children}</main>
-          {!(Router.pathname === "/admin/login") && <Footer />}
+          {/* {!(Router.pathname === "/admin/login") && <Footer />} */}
         </React.Fragment>
       )}
     </React.Fragment>
