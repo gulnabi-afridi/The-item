@@ -116,7 +116,7 @@ const UserInformation = () => {
                 <p className="text-[18px] text-black font-normal flex justify-start items-center">
                   Email
                 </p>
-                <p className="w-full text-[18px] font-normal text-black flex justify-start items-center">
+                <p className="max-w-full text-[18px] font-normal break-all text-black flex justify-start items-center">
                   {userDetail.email}
                 </p>
               </div>
